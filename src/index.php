@@ -6,7 +6,20 @@
     <title>Livraria</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    
+<body class="bg-stone-900 text-stone-480" >
+    <header class="bg-stone-800">
+        <nav class="nx-auto flex justify-between px-8 py-4">
+            <div class="font-bold text-xl tracking-wide">Book Wise</div>
+            <ul class="flex space-x-4">
+                <li><a href="/">Explorar</a></li>
+                <li><a href="/meus-livros">Meus livros</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">Fazer Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
